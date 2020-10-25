@@ -1,0 +1,53 @@
+.body{
+    background-color: $background-color;
+    font-family: "Julius Sans One", sans-serif;
+}
+.container{
+   margin-bottom: 100px;
+    h1 {
+        color: #463f3a;
+        font-size: 34px;
+        line-height: 46px;
+        margin: 40px auto;
+    }
+    
+    .card {
+        background-color: $yellow-grey;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
+        border-radius: 15px;
+        height: 263px;
+        border: none;
+      
+      }
+      .card-body{
+          width: 100%;
+      }
+      .border-pink{
+        border: 3px solid #c32c72;
+        background-color: #ffffff;
+    }
+    .pink{
+        border: 3px solid #ffffff;
+        background-color: #c32c72;
+    }
+    .row {
+        margin: 25px;
+    }
+
+}
+
+footer{
+    background-color: $backround-nav;
+    color: $secondary;
+    display: flex;
+    padding: 0.5rem;
+    a{
+        color: $secondary;
+    }
+}
+@media only screen and (max-width: 585px) {
+    .card{
+        width: 229px;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,24 @@
+.navbar{
+    background-color: $backround-nav;
+    
+    &-brand{
+        color: $primary;
+      
+    }
+    
+    &-nav {
+        
+        .nav-link{
+            color: $gray;
+            font-size: 22px;
+            font-family: $font; 
+        }
+        .active{
+            color: $pink;
+        }
+    
+    }
+    
+    
+}
+
